@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@color/letraenc"
+    android:gravity="center_horizontal"
+    tools:context=".ActivityImc">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:textSize="28sp"
+        android:text="Calcular IMC"/>
+
+    <EditText
+        android:id="@+id/peso"
+        android:hint="Peso (kg)"
+        android:inputType="numberDecimal"
+        android:layout_width="100dp"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/altura"
+        android:hint="Altura (m)"
+        android:inputType="numberDecimal"
+        android:layout_width="100dp"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:backgroundTint="#6981FF"
+        android:text="Calcular IMC"/>
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="32sp"
+        android:textSize="18sp"
+        android:text=""/>
+
+</LinearLayout>
