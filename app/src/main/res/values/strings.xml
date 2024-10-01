@@ -10,6 +10,18 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+    <string-array name="array_conv">
+        <item>Pesos mexicanos - Dolar americano</item>
+        <item>Pesos mexicanos - Dolar canadiense</item>
+        <item>Pesos mexicanos - Euro</item>
+        <item>Euro - Pesos mexicanos</item>
+        <item>Dolar americano - Pesos mexicanos</item>
+        <item>Dolar canadiense - Pesos mexicanos</item>
+
+    </string-array>
+    <string name="dolara">19.75</string>
+    <string name="dolarc">14.57</string>
+    <string name="euro">22.02</string>
     <string name="titulo">Mi Primer Aplicación Movil</string>
     <string name="tunombre">Cual es tu nombre</string>
     <string name="pulsar">Pulsame</string>

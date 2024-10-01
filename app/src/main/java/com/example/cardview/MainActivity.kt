@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var cardHola: CardView
     private lateinit var cardConversion: CardView
     private lateinit var cardIMC: CardView
+    private lateinit var cardConvertirMoneda: CardView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,6 +25,12 @@ class MainActivity : AppCompatActivity() {
            val intent = Intent(this, ActivityImc::class.java)
             startActivity(intent)
 
+        }
+
+        cardConvertirMoneda = findViewById(R.id.cvrMoneda)
+        cardConvertirMoneda.setOnClickListener {
+            val intent = Intent(this, ConvertirMoneda::class.java)
+            startActivity(intent)
         }
 
         cardConversion = findViewById(R.id.cvrConversion)

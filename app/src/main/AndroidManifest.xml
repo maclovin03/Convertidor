@@ -13,6 +13,9 @@
         android:theme="@style/Theme.CardView"
         tools:targetApi="31">
         <activity
+            android:name=".ConvertirMoneda"
+            android:exported="false" />
+        <activity
             android:name=".ActivityHola"
             android:exported="false" />
         <activity
