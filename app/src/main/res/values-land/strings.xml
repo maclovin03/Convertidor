@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cliente">Nombre cliente</string>
+    <string name="ciudad">Mazatlan, Sinaloa</string>
+    <string name="domicilio">Av del Mar 1200</string>
+    <string name="marca">Toyota</string>
+</resources>
